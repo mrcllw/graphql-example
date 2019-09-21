@@ -1,0 +1,21 @@
+http://localhost:4000/
+
+  query {
+    todos {
+      id
+      text
+    }
+  }
+
+  query {
+    todo(id: "5d84123fd4c99058094c58ad") {
+      text
+    }
+  }
+
+  mutation {
+    addTodo(text: "Fazer café) {
+      id
+      text
+    }
+  }
